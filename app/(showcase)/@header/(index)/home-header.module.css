@@ -1,0 +1,12 @@
+.heading {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  position: relative;
+}
+
+.h1 {
+  padding-left: 0.7em;
+  padding-top: 0.1em;
+}
