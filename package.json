@@ -1,7 +1,7 @@
 {
   "name": "egxrsc",
   "version": "1.0.0",
-  "description": "Showcasing what we can do with React Server Components and beyond.",
+  "description": "A playground for React Server Components.",
   "homepage": "http://egxrsc.vercel.app",
   "author": "Ethan G",
   "license": "MIT",
