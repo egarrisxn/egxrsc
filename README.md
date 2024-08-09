@@ -1,6 +1,6 @@
 # EGXRSC
 
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) ![GitHub repo size](https://img.shields.io/github/repo-size/egarrisxn/egxrsc)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) ![GitHub repo size](https://img.shields.io/github/repo-size/egarrisxn/egxworld-v2) ![GitHub last commit](https://img.shields.io/github/last-commit/egarrisxn/egxworld-v2)
 
 ## Description
 
@@ -10,11 +10,12 @@ A minimalist inspired website, using MDX, Next.js, React Server Components, & mo
 
 ## Technologies
 
-- MDX (Markdown)
-- React (RSC)
 - Next.js 14
-- Radix UI
+- MDX (Markdown)
+- React + RSC
+- Resend
 - Vercel
+- Etc.
 
 ## Getting Started
 

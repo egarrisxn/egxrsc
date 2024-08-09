@@ -1,7 +1,7 @@
 {
   "name": "egxrsc",
   "version": "1.0.0",
-  "description": "A playground for React Server Components & beyond.",
+  "description": "A minimalist inspired approach to a website, and one I am using as my own. Powered with Next.js, MDX, React+RSC, Resend, & more!",
   "homepage": "http://egxrsc.vercel.app",
   "author": "Ethan G",
   "license": "MIT",
@@ -14,8 +14,9 @@
     "eslint",
     "rsc",
     "react",
-    "react-server-components",
-    "vercel"
+    "rsc",
+    "vercel",
+    "resend"
   ],
   "scripts": {
     "preinstall": "npx only-allow pnpm",
