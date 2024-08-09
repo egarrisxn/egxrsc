@@ -72,10 +72,11 @@ export default async function HomePage() {
         </div>
         <ContentList />
       </section>
-
-      <footer className={styles.footer}>
+      <hr />
+      <Socials />
+      {/* <footer className={styles.footer}>
         <Socials />
-      </footer>
+      </footer> */}
     </>
   )
 }

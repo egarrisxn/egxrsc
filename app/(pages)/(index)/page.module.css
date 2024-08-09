@@ -3,13 +3,3 @@
   padding-top: 0.2em;
   padding-bottom: 1.5em;
 }
-
-.footer {
-  color: var(--gray);
-  margin-top: var(--small-gap);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: start;
-  gap: 2.5em;
-}

@@ -1,11 +1,11 @@
 import Link from '../../components/link'
-import Form from '../../components/form'
+import ContactForm from '../../components/contact-form'
 import Socials from '../../components/socials'
 
 export const metadata = {
   title: 'Contact',
   description: 'Contact.',
-    alternates: {
+  alternates: {
     canonical: 'https://egxworld.net/contact',
   },
 }
@@ -25,7 +25,7 @@ export default function ContactPage() {
         </Link>
         .
       </p>
-      <Form />
+      <ContactForm />
       <Socials />
     </article>
   )

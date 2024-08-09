@@ -11,12 +11,34 @@
   transition: border-color var(--transition);
   margin: 0 auto;
 }
+@media screen and (max-width: 768px) {
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    padding: 0;
+    border-radius: 0;
+    background: var(--bg);
+    border: 0;
+    outline: none;
+    transition: border-color var(--transition);
+    margin: 0 auto;
+  }
+}
 
 .form label {
   font-size: 1rem;
   color: var(--fg);
   margin-top: 0.3rem;
   margin-bottom: 0;
+}
+@media screen and (max-width: 768px) {
+  .form label {
+    font-size: 0.9rem;
+    color: var(--fg);
+    margin-top: 0.2rem;
+    margin-bottom: 0;
+  }
 }
 
 .button {
