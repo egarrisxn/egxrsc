@@ -1,14 +1,14 @@
-import { ImageResponse } from 'next/og'
+import {ImageResponse} from 'next/og'
 
-export const size = { width: 1200, height: 600 }
+export const size = {width: 1200, height: 600}
 export const alt = ''
 export const contentType = 'image/png'
 export const runtime = 'edge'
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default async function () {
-  const fontData = await fetch(new URL('./fonts/Inter-Medium.ttf', import.meta.url)).then((res) =>
-    res.arrayBuffer(),
+  const fontData = await fetch(new URL('./fonts/kaisei-tokumin-bold.ttf', import.meta.url)).then(
+    (res) => res.arrayBuffer(),
   )
 
   return new ImageResponse(
@@ -58,7 +58,7 @@ export default async function () {
             fontSize: 100,
           }}
         >
-          EGX|RSC
+          egxrsc
         </div>
       </div>
     ),

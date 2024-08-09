@@ -7,10 +7,11 @@ export default function ContentFooter() {
       <hr style={{margin: 0}} />
       <footer className={styles.footer}>
         <p>
-          Thank you for time! Follow me{' '}
+          Thank you for your time! Follow me on{' '}
           <Link external href='https://x.com/eg_xo_'>
-            Twitter
+            X
           </Link>
+          .
         </p>
       </footer>
     </>

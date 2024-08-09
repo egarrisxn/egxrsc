@@ -41,7 +41,7 @@
   max-width: 600px;
   display: flex;
   align-items: center;
-  gap: 0.4em;
+  gap: 0.3em;
   padding: 0;
 }
 @media screen and (max-width: 768px) {
@@ -49,20 +49,20 @@
     max-width: 250px;
     display: flex;
     align-items: center;
-    gap: 0.3em;
+    gap: 0.2em;
     padding: 0;
   }
 }
 
 .songImage {
-  height: 0em;
-  width: 0em;
+  height: 1em;
+  width: 1em;
   border-radius: 0.25em;
 }
 @media screen and (max-width: 768px) {
   .songImage {
-    height: 2.5em;
-    width: 2.5em;
+    height: 2.3em;
+    width: 2.3em;
     border-radius: 0.25em;
   }
 }
@@ -72,7 +72,7 @@
   flex-direction: row-reverse;
   font-size: 1rem;
   overflow: hidden;
-  gap: 0.3em;
+  gap: 0.2em;
 }
 @media screen and (max-width: 768px) {
   .songDetails {

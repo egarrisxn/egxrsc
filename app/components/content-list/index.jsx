@@ -1,13 +1,13 @@
 import FilterableList from '../filterable-list'
-import getNotes from '../../lib/get-notes'
-import getPosts from '../../lib/get-posts'
-import {getTag, renderItem} from './render-item'
+import getThoughts from '@/lib/get-thoughts'
+import getPosts from '@/lib/get-posts'
+import {getTag, renderItem} from './render'
 import {Suspense} from 'react'
 
-export async function ContentListRSC() {
-  const [posts, notes] = await Promise.all([getPosts(true), getNotes()])
+export async function ContentList() {
+  const [posts, thoughts] = await Promise.all([getPosts(true), getThoughts()])
 
-  const content = [...posts, ...notes].sort((a, b) => {
+  const content = [...posts, ...thoughts].sort((a, b) => {
     return new Date(b.date).getTime() - new Date(a.date).getTime()
   })
 

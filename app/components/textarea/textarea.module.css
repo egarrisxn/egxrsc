@@ -1,0 +1,15 @@
+.textarea {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: var(--inline-radius);
+  background: var(--bg);
+  color: var(--fg);
+  border: 1px solid var(--light-gray);
+  outline: none;
+  transition: border-color var(--transition);
+  margin: 0;
+}
+
+.textarea:focus {
+  border-color: var(--gray);
+}

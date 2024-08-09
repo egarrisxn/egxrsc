@@ -3,7 +3,7 @@ import styles from './posts-list.module.css'
 import {useState} from 'react'
 import BlockEntry from '../entry/block'
 
-export default function Posts(props) {
+export default function PostsList(props) {
   const [showMore, setShowMore] = useState(4)
 
   if ('skeleton' in props) {
@@ -30,7 +30,7 @@ export default function Posts(props) {
         return (
           <BlockEntry
             key={`post-item-${post.slug || Math.random()}`}
-            href={post.isThirdParty ? post.href : `/blog/${post.slug}`}
+            href={post.isThirdParty ? post.href : `/posts/${post.slug}`}
             title={post.title}
             date={new Date(date)}
             views={post.views}

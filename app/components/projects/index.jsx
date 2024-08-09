@@ -22,7 +22,7 @@ export default function ProjectList({projects = [], seeMore = true, showYears = 
       })}
       {seeMore && (
         <li>
-          See more projects <Link href='/projects'> here</Link>.
+          See more <Link href='/projects'>projects</Link>.
         </li>
       )}
     </ul>

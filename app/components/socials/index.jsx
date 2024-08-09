@@ -1,25 +1,22 @@
 import styles from './socials.module.css'
 import {SocialButton} from './social-button'
-import {LinkedIn, GitHub, Twitter, Instagram, Music, Mail} from '../icons'
+import {LinkedIn, GitHub, XIcon, Instagram, Discord, Spotify1} from '../icons'
 
 export default function Socials(props) {
   return (
     <div className={styles.socials} {...props}>
-      <SocialButton
-        href='https://www.linkedin.com/in/ethan-gx'
-        icon={<LinkedIn strokeWidth={2} />}
-        tooltip='LinkedIn'
-      />
       <SocialButton
         href='https://github.com/egarrisxn'
         icon={<GitHub strokeWidth={2} />}
         tooltip='GitHub'
       />
       <SocialButton
-        href='https://x.com/eg_xo_'
-        icon={<Twitter strokeWidth={2} />}
-        tooltip='Twitter'
+        href='https://www.linkedin.com/in/ethan-gx'
+        icon={<LinkedIn strokeWidth={2} />}
+        tooltip='LinkedIn'
       />
+
+      <SocialButton href='https://x.com/eg_xo_' icon={<XIcon strokeWidth={2} />} tooltip='X' />
       <SocialButton
         href='https://instagram.com/eg___xo'
         icon={<Instagram strokeWidth={2} />}
@@ -27,13 +24,13 @@ export default function Socials(props) {
       />
       <SocialButton
         href='https://open.spotify.com/user/egarrisxn'
-        icon={<Music strokeWidth={2} />}
+        icon={<Spotify1 strokeWidth={2} />}
         tooltip='Spotify'
       />
       <SocialButton
-        href='mailto:egarrisxn@gmail.com'
-        icon={<Mail strokeWidth={2} />}
-        tooltip='Email'
+        href='https://discord.com/users/eg___xo'
+        icon={<Discord strokeWidth={2} />}
+        tooltip='Discord'
       />
     </div>
   )

@@ -1,10 +1,9 @@
 import NextImage from 'next/image'
 import {Code} from 'bright'
-import {MDXNote} from './mdx-note'
+import {MDXThought} from './mdx-thought'
 import {MDXImage} from './mdx-image'
-import {Tweet} from 'react-tweet'
-import Info from '../../components/icons/info'
-import Home from '../../components/icons/home'
+import Info from '@/components/icons/info'
+import Home from '@/components/icons/home'
 
 Code.theme = {
   dark: 'solarized-dark',
@@ -25,19 +24,7 @@ export const mdxComponents = {
       {children}
     </details>
   ),
-  Note: MDXNote,
+  Thought: MDXThought,
   InfoIcon: Info,
   HomeIcon: Home,
-
-  Tweet: (props) => (
-    <div
-      style={{
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-      }}
-    >
-      <Tweet {...props} />
-    </div>
-  ),
 }

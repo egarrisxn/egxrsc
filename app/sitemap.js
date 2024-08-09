@@ -1,9 +1,9 @@
-import getNotes from './lib/get-notes'
+import getThoughts from './lib/get-thoughts'
 import getPosts from './lib/get-posts'
 
 export default async function sitemap() {
   const posts = await getPosts()
-  const notes = await getNotes()
+  const thoughts = await getThoughts()
 
   const blogs = posts
     .map((post) => ({
@@ -13,10 +13,10 @@ export default async function sitemap() {
         : new Date().toISOString().split('T')[0],
     }))
     .concat(
-      notes.map((note) => ({
-        url: `http://egxrsc.vercel.app/notes/${note.slug}`,
-        lastModified: note.lastModified
-          ? new Date(note.lastModified).toISOString().split('T')[0]
+      thoughts.map((thought) => ({
+        url: `http://egxrsc.vercel.app/thoughts/${thought.slug}`,
+        lastModified: thought.lastModified
+          ? new Date(thought.lastModified).toISOString().split('T')[0]
           : new Date().toISOString().split('T')[0],
       })),
     )

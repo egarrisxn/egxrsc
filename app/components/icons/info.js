@@ -9,7 +9,6 @@ const Info = () => (
     strokeWidth='2'
     strokeLinecap='round'
     strokeLinejoin='round'
-    className='feather feather-info'
   >
     <circle cx='12' cy='12' r='10' stroke='var(--info-stroke-circle-color, currentColor)'></circle>
     <line
