@@ -10,14 +10,14 @@ export function getMetadata({
 }) {
   const domain =
     process.env.NODE_ENV === 'production'
-      ? 'https://egxrsc.net'
+      ? 'https://egxworld.net'
       : process.env.NEXT_PUBLIC_VERCEL_URL
         ? `https://${process.env.NEXT_PUBLIC_VERCEL_URL}`
         : 'http://localhost:3000'
 
   return (
     <>
-      {title.indexOf('Blog') > -1 ? (
+      {title.indexOf('EGXWORLD') > -1 ? (
         <title>{title}</title>
       ) : (
         <title>{`${title} - ${author}`}</title>

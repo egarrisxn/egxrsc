@@ -4,6 +4,9 @@ import Socials from '../../components/socials'
 export const metadata = {
   title: 'Posts',
   description: 'Posts.',
+    alternates: {
+    canonical: 'https://egxworld.net/posts',
+  },
 }
 
 export default async function PostsPage() {

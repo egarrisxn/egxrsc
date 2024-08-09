@@ -5,6 +5,9 @@ import Socials from '../../components/socials'
 export const metadata = {
   title: 'Contact',
   description: 'Contact.',
+    alternates: {
+    canonical: 'https://egxworld.net/contact',
+  },
 }
 
 export default function ContactPage() {

@@ -4,7 +4,7 @@ const Projects = [
   {
     title: 'Unofficial Merchandise',
     description:
-      'A fully functional ecommerce web store configured with Next.js, Sanity, Stripe, & more.',
+      'A fully functional ecommerce web store configured with Next.js, Sanity, Stripe, Tailwind CSS, shadcn/ui, & more.',
     href: 'https://github.com/egarrisxn/unofficial-merchandise',
     years: ['2024'],
     type: 'project',
@@ -20,7 +20,7 @@ const Projects = [
   {
     title: 'n00b:dev',
     description:
-      'A server-side rendered blog utilizing the Astro framework, Typescript, & Tailwind CSS.',
+      'A server-side rendered blog utilizing the Astro framework, Typescript, Tailwind CSS, & more.',
     href: 'https://github.com/egarrisxn/n00bdev',
     years: ['2024'],
     type: 'project',
@@ -28,7 +28,7 @@ const Projects = [
   {
     title: 'EG Movies',
     description:
-      'An intuitive movie database application powered by Angular, Typescript, & Tailwind CSS.',
+      'An intuitive movie database application powered by Angular, Typescript, Tailwind CSS, & more.',
     href: 'https://github.com/egarrisxn/eg-angular-movies',
     years: ['2024'],
     type: 'project',
@@ -36,50 +36,43 @@ const Projects = [
   {
     title: 'Dev-Build Resume',
     description:
-      'A beautiful resume builder using the likes of Next.js, Typescript, Tailwind CSS, & Material-Tailwind.',
+      'A beautiful resume builder using the likes of Next.js, Typescript, Tailwind CSS, Material-Tailwind, & more.',
     href: 'https://github.com/egarrisxn/devbuild-resume',
-    years: ['2024'],
-    type: 'project',
-  },
-  {
-    title: '(PEHN) User Management',
-    description: 'A minimalist CRUD application using resources like Express, HTMX, Pug, & more.',
-    href: 'https://github.com/egarrisxn/pehn-user-management',
     years: ['2024'],
     type: 'project',
   },
   {
     title: 'Sway Bae Official',
     description:
-      'The official website for streamer and content creator, Sway Bae. Using Next.js, Tailwind CSS, DaisyUI, & more.',
+      'The official website for streamer and content creator, Sway Bae. Using Next.js, Tailwind CSS, daisyUI, & more.',
     href: 'https://github.com/egarrisxn/swaybaeofficial',
     years: ['2023'],
     type: 'project',
   },
   {
-    title: 'EGXWORLD v1',
+    title: 'EGXWORLD V1',
     description: 'My *old* personal portfolio powered by Next.js, Tailwind CSS, shadcn/ui, & more.',
-    href: 'https://github.com/egarrisxn/egxworld',
+    href: 'https://github.com/egarrisxn/egxworld-v1',
     years: ['2023'],
     type: 'project',
   },
   {
-    title: 'EGXBLOG v1',
-    description: 'My *old* personal blog powered by Next.js, Sanity, Tailwind CSS, & shandcn/ui.',
+    title: 'EGXBLOG',
+    description: 'My *old* personal blog powered by Next.js, Sanity, Tailwind CSS, shadcn/ui, & more.',
     href: 'https://github.com/egarrisxn/egxblog',
     years: ['2023'],
     type: 'project',
   },
   {
-    title: 'Vanilla Portfolio',
-    description: 'A modern and beautiful portfolio template using only HTML5, CSS3, & JavaScript.',
+    title: 'Vanilla Template',
+    description: 'A modern and beautiful portfolio template using only HTML, CSS, & JavaScript.',
     href: 'https://github.com/egarrisxn/portfolio-template',
     years: ['2023'],
     type: 'project',
   },
   {
-    title: 'The MVC Tech Forum',
-    description: 'A CMS inspired forum application using Express, MySql, Handlebars, & Bootstrap.',
+    title: 'The Tech Forum',
+    description: 'A CMS inspired forum application using Express, MySQL, Handlebars, Bootstrap, & more.',
     href: 'https://github.com/egarrisxn/mvc-tech-forum',
     years: ['2023'],
     type: 'project',

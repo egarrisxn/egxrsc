@@ -7,6 +7,9 @@ import {getProjects} from '../../lib/get-projects'
 export const metadata = {
   title: 'Projects',
   description: 'Projects.',
+    alternates: {
+    canonical: 'https://egxworld.net/projects',
+  },
 }
 
 export default async function ProjectsPage() {

@@ -58,7 +58,7 @@ export default async function () {
             fontSize: 100,
           }}
         >
-          egxrsc
+          EGXWORLD
         </div>
       </div>
     ),

@@ -1,12 +1,12 @@
-# EGXRSC
+# EGXWORLD V2
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) ![GitHub repo size](https://img.shields.io/github/repo-size/egarrisxn/egxworld-v2) ![GitHub last commit](https://img.shields.io/github/last-commit/egarrisxn/egxworld-v2)
 
 ## Description
 
-A minimalist inspired website, using MDX, Next.js, React Server Components, & more!
+A minimalist inspired approach to a website, and one I am using as my own. Powered with Next.js, MDX, React+RSC, Resend, & more!
 
-![egxrsc](https://github.com/egarrisxn/egxrsc/assets/126130230/cc20a15e-d43f-4340-9ad7-b86127a5dfa3)
+![egxworld-v2](https://github.com/egarrisxn/egxworld-v2/assets/126130230/cc20a15e-d43f-4340-9ad7-b86127a5dfa3)
 
 ## Technologies
 
