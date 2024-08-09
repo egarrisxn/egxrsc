@@ -2,8 +2,8 @@ import NextImage from 'next/image'
 import {Code} from 'bright'
 import {MDXThought} from './mdx-thought'
 import {MDXImage} from './mdx-image'
-import Info from '@/components/icons/info'
-import Home from '@/components/icons/home'
+import Info from '../../components/icons/info'
+import Home from '../../components/icons/home'
 
 Code.theme = {
   dark: 'solarized-dark',

@@ -1,8 +1,8 @@
 import styles from './projects.module.css'
-import Link from '@/components/link'
-import Socials from '@/components/socials'
-import ProjectList from '@/components/projects'
-import {getProjects} from '@/lib/get-projects'
+import Link from '../../components/link'
+import Socials from '../../components/socials'
+import ProjectList from '../../components/projects'
+import {getProjects} from '../../lib/get-projects'
 
 export const metadata = {
   title: 'Projects',

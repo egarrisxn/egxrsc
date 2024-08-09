@@ -1,6 +1,6 @@
 import styles from './about.module.css'
 import Image from 'next/image'
-import Socials from '@/components/socials'
+import Socials from '../../components/socials'
 
 export const metadata = {
   title: 'About',

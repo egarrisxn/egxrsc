@@ -1,5 +1,5 @@
-import {ThePostsList} from '@/components/posts-list/thepostslist'
-import Socials from '@/components/socials'
+import {ThePostsList} from '../../components/posts-list/ThePostsList'
+import Socials from '../../components/socials'
 
 export const metadata = {
   title: 'Posts',

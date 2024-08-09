@@ -1,7 +1,7 @@
 'use client'
 import styles from './spotify.module.css'
 import {useEffect, useState} from 'react'
-import getNowPlayingItem from '@/lib/get-spotify'
+import getNowPlayingItem from '../../lib/get-spotify'
 import Spotify from '../icons/spotify2'
 import Image from 'next/image'
 

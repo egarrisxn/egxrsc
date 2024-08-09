@@ -1,7 +1,7 @@
 import styles from '../../thoughts/[slug]/thoughtslayout.module.css'
-import getThoughts from '@/lib/get-thoughts'
-import ContentFooter from '@/components/content-footer/footer'
-import Navigation from '@/components/content-footer/navigation'
+import getThoughts from '../../../lib/get-thoughts'
+import ContentFooter from '../../../components/content-footer/footer'
+import Navigation from '../../../components/content-footer/navigation'
 
 export async function generateStaticParams() {
   const thoughts = await getThoughts()

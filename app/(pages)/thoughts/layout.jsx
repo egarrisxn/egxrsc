@@ -1,4 +1,4 @@
-import Outline from '@/components/layout-outline'
+import Outline from '../../components/layout-outline'
 
 export const metadata = {
   title: 'Thoughts',

@@ -1,7 +1,7 @@
 import styles from './postslayout.module.css'
-import getPosts from '@/lib/get-posts'
-import Navigation from '@/components/content-footer/navigation'
-import ContentFooter from '@/components/content-footer/footer'
+import getPosts from '../../../lib/get-posts'
+import Navigation from '../../../components/content-footer/navigation'
+import ContentFooter from '../../../components/content-footer/footer'
 
 export async function generateStaticParams() {
   const posts = await getPosts()

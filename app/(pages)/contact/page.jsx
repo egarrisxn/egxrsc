@@ -1,6 +1,6 @@
-import Link from '@/components/link'
-import Form from '@/components/form'
-import Socials from '@/components/socials'
+import Link from '../../components/link'
+import Form from '../../components/form'
+import Socials from '../../components/socials'
 
 export const metadata = {
   title: 'Contact',

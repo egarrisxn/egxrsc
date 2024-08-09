@@ -2,7 +2,7 @@
 import styles from './form.module.css'
 import {useEffect} from 'react'
 import {useFormState} from 'react-dom'
-import {sendEmail} from '@/lib/send-email'
+import {sendEmail} from '../../lib/send-email'
 import Input from '../input'
 import TextArea from '../textarea'
 

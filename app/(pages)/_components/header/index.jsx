@@ -1,5 +1,5 @@
 import styles from './header.module.css'
-import ThemeSwitcher from '@/components/theme-switcher'
+import ThemeSwitcher from '../../../components/theme-switcher'
 
 export default function Header({children}) {
   return (

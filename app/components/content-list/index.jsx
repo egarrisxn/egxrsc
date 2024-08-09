@@ -1,6 +1,6 @@
 import FilterableList from '../filterable-list'
-import getThoughts from '@/lib/get-thoughts'
-import getPosts from '@/lib/get-posts'
+import getThoughts from '../../lib/get-thoughts'
+import getPosts from '../../lib/get-posts'
 import {getTag, renderItem} from './render'
 import {Suspense} from 'react'
 
