@@ -1,5 +1,5 @@
-import getPosts, {getPost} from '@/lib/get-posts'
-import {BlogBody} from '@/mdx/blog-body'
+import getPosts, {getPost} from '../../../lib/get-posts'
+import {BlogBody} from '../../../mdx/blog-body'
 import {notFound} from 'next/navigation'
 
 export async function generateStaticParams() {

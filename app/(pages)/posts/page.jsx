@@ -1,4 +1,4 @@
-import {ThePostsList} from '../../components/posts-list/ThePostsList'
+import {ThePostsList} from '../../components/posts-list/thepostslist/index.jsx'
 import Socials from '../../components/socials'
 
 export const metadata = {

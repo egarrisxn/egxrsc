@@ -1,5 +1,5 @@
-import getPosts from '@/lib/get-posts'
-import PostsList from './index.jsx'
+import getPosts from '../../../lib/get-posts'
+import PostsList from '../index.jsx'
 
 export async function ThePostsList({paginate}) {
   const posts = await getPosts()
