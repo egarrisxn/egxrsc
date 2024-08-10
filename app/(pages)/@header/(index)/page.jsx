@@ -7,11 +7,11 @@ export default function HomeHeader() {
       <Image
         src='/bluecircle.svg'
         alt='Blue Circle'
-        width={205}
-        height={50}
-        style={{position: 'absolute'}}
+        width={160}
+        height={40}
+        className={styles.image}
       />
-      <h1 className={styles.h1}>Ethan G.</h1>
+      <div className={styles.text}>Ethan G.</div>
     </div>
   )
 }

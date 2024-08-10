@@ -11,12 +11,14 @@ export const metadata = {
 
 export default async function ThoughtsPage() {
   return (
-    <article>
-      <h3>Random thoughts _</h3>
-      <hr />
-      <TheThoughtsList paginate={true} />
+    <>
+      <article>
+        <h3>Random thoughts _</h3>
+        <hr />
+        <TheThoughtsList paginate={true} />
+      </article>
       <hr />
       <Socials />
-    </article>
+    </>
   )
 }

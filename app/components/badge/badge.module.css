@@ -2,10 +2,10 @@
   display: inline-flex;
   align-items: center;
   font-size: 0.9rem;
-  background-color: var(--lighter-gray);
-  border: 1px solid var(--light-gray);
+  background-color: var(--neutral-3);
+  border: 1px solid var(--neutral-2);
   border-radius: var(--radius);
-  color: var(--gray);
+  color: var(--neutral);
   padding: 0 var(--gap-half);
   font-weight: 450;
 }

@@ -12,8 +12,9 @@ export default function BreadcrumbPage() {
     const homeLink = (
       <li style={{listStyle: 'none'}} key='first'>
         <Link href='/' title='home'>
-          home /
+          home{' '}
         </Link>
+        -
       </li>
     )
 
@@ -28,9 +29,9 @@ export default function BreadcrumbPage() {
         return (
           <React.Fragment key={key}>
             {index > 0 && ( // Don't render the span for the first item
-              <span key={`${part}-span`} aria-hidden style={{color: 'var(--gray)'}}>
+              <span key={`${part}-span`} aria-hidden style={{color: 'var(--neutral)'}}>
                 {' '}
-                /{' '}
+                -{' '}
               </span>
             )}
             <li style={{listStyle: 'none'}} key={key}>

@@ -6,11 +6,11 @@
 .wrapper .date {
   font-weight: 500;
   font-size: 1rem;
-  color: var(--gray);
+  color: var(--neutral);
 }
 
 .wrapper .lastModified {
-  color: var(--gray);
+  color: var(--neutral);
   font-size: 0.8rem;
   font-weight: 500;
 }
@@ -21,12 +21,12 @@
 
 .content {
   overflow: auto;
-  color: var(--gray-alpha);
+  color: var(--neutral-tint);
   font-weight: 500;
   margin-left: var(--gap-double);
 }
 
 .icon {
-  color: var(--gray) !important;
+  color: var(--neutral) !important;
   padding: var(--gap-half) !important;
 }

@@ -5,26 +5,26 @@
 }
 
 .button {
-  margin-top: var(--gap-half);
   width: 100%;
-  cursor: pointer;
-  border-radius: var(--radius);
-  color: var(--gray);
-  font-weight: 500;
-  background: var(--lighter-gray);
-  border: none;
+  margin-top: var(--gap-half);
   padding: var(--gap-half) var(--gap);
+  border-radius: var(--radius);
+  border: none;
+  color: var(--neutral-tint) !important;
+  font-weight: 500;
+  background: var(--neutral-3);
   transition:
     background-color var(--transition),
     color var(--transition);
   outline: none;
+  cursor: pointer;
 }
 
 .button:hover,
 .button:focus {
-  color: var(--fg);
+  color: var(--fg) !important;
 }
 
 .button:active {
-  background-color: var(--lightest-gray);
+  background-color: var(--bg-hover);
 }

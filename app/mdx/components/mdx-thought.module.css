@@ -3,7 +3,7 @@
 }
 
 .thought .icon {
-  --info-stroke-circle-color: var(--light-gray);
+  --info-stroke-circle-color: var(--neutral-2);
   --info-stroke-color: var(--fg);
   position: absolute;
   top: 0px;

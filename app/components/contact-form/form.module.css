@@ -47,8 +47,8 @@
   border-radius: var(--radius);
   color: var(--fg);
   font-weight: 500;
-  background: var(--lighter-gray);
-  outline: 1px solid var(--gray);
+  background: var(--neutral-3);
+  outline: 1px solid var(--neutral);
   display: flex;
   justify-content: center;
   padding: var(--gap-quarter) var(--gap-half);
@@ -59,7 +59,7 @@
 
 .button:hover,
 .button:focus {
-  color: var(--gray);
+  color: var(--neutral);
 }
 
 .button:focus {
@@ -68,6 +68,6 @@
 
 .button[disabled] {
   cursor: not-allowed;
-  background: var(--lighter-gray);
-  color: var(--gray);
+  background: var(--neutral-3);
+  color: var(--neutral);
 }

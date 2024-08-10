@@ -31,7 +31,7 @@ export function SpotifyNowPlaying(props) {
   return (
     <div>
       {loading ? (
-        <section className={styles.nowPlaying}>Loading..</section>
+        <section className={styles.loading}>Loading..</section>
       ) : (
         <section className={styles.mainContainer}>
           <div className={styles.headerContainer}>

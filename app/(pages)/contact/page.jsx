@@ -12,21 +12,24 @@ export const metadata = {
 
 export default function ContactPage() {
   return (
-    <article>
-      <h3>Contact me _</h3>
-      <p>
-        If you have any questions, comments, or interest in working together, go ahead and send over
-        a messsage and I&#39;ll get back with you as soon as I can.
-      </p>
-      <p>
-        If forms aren&#39;t your thing, email me directly at{' '}
-        <Link external href='mailto:egarrisxn@gmail.com'>
-          egarrisxn@gmail.com
-        </Link>
-        .
-      </p>
-      <ContactForm />
+    <>
+      <article>
+        <h3>Contact me _</h3>
+        <p>
+          If you have any questions, comments, or interest in working together, go ahead and send
+          over a messsage and I&#39;ll get back with you as soon as I can.
+        </p>
+        <ContactForm />
+        <p>
+          If forms aren&#39;t your thing, email me directly:{' '}
+          <Link external href='mailto:egarrisxn@gmail.com'>
+            egarrisxn@gmail.com
+          </Link>
+          .
+        </p>
+      </article>
+      <hr />
       <Socials />
-    </article>
+    </>
   )
 }

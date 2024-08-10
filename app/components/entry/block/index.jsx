@@ -32,7 +32,7 @@ export default function BlockEntry(props) {
               </div>
             )}{' '}
             {type ? (
-              <span style={{color: 'var(--gray)'}}>
+              <span style={{color: 'var(--neutral)'}}>
                 {type.charAt(0).toUpperCase() + type.slice(1)}
               </span>
             ) : (

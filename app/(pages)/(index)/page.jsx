@@ -74,9 +74,6 @@ export default async function HomePage() {
       </section>
       <hr />
       <Socials />
-      {/* <footer className={styles.footer}>
-        <Socials />
-      </footer> */}
     </>
   )
 }

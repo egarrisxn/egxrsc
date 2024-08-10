@@ -1,5 +1,5 @@
 .footer {
-  color: var(--article-color);
+  color: var(--fg-2);
 
   a {
     color: var(--link);
@@ -7,6 +7,6 @@
   }
 
   p {
-    color: var(--gray);
+    color: var(--neutral);
   }
 }

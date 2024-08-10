@@ -1,5 +1,5 @@
 .icon {
-  color: var(--gray) !important;
+  color: var(--neutral-1) !important;
   padding: var(--gap-half) !important;
 }
 
@@ -13,17 +13,11 @@
 .nav {
   display: flex;
   justify-content: space-between;
-  margin: 1rem 0;
+  margin: var(--gap) 0;
 }
 
 .header {
   max-width: var(--main-content);
   display: flex;
   align-items: center;
-}
-
-@media (max-width: 960px) {
-  .nav {
-    margin: var(--gap-double) 0;
-  }
 }

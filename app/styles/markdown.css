@@ -17,7 +17,7 @@ article > * + * {
 }
 
 article p {
-  color: var(--article-color);
+  color: var(--fg-2);
 }
 
 article aside p {
@@ -61,10 +61,10 @@ article ol > li > ul {
 
 article aside,
 article blockquote {
-  border: 1px solid var(--lighter-gray);
-  background: var(--lightest-gray);
+  border: 1px solid var(--neutral-3);
+  background: var(--bg-2);
   padding: var(--gap-half);
-  color: var(--article-color);
+  color: var(--fg-2);
   margin: var(--gap-half) 0;
 }
 
@@ -82,13 +82,13 @@ article *:not(pre) > code {
 article *:not(pre) > code::before,
 article *:not(pre) > code::after {
   content: '\`';
-  color: var(--gray);
+  color: var(--neutral);
   user-select: none;
 }
 
 article pre {
   overflow-x: auto;
-  background: var(--lightest-gray);
+  background: var(--bg-2);
   border-radius: var(--inline-radius);
   line-height: 1.8;
   padding: 1rem;
@@ -128,7 +128,7 @@ sup {
   opacity: 0;
   content: '#';
   margin-left: var(--gap-half);
-  color: var(--gray);
+  color: var(--neutral);
 }
 
 .header-link:hover::after {

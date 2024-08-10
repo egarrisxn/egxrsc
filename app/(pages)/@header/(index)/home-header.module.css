@@ -1,12 +1,17 @@
 .heading {
-  display: flex;
-  flex-direction: row;
   width: 100%;
-  justify-content: space-between;
-  position: relative;
 }
 
-.h1 {
-  padding-left: 0.7em;
-  padding-top: 0.1em;
+.image {
+  margin: -0.3rem 0 0 -0.5rem;
+  padding: 0;
+  rotate: y -180deg;
+  position: absolute;
+}
+
+.text {
+  padding-left: 0.5rem;
+  font-size: 1.8rem;
+  font-weight: 800;
+  position: relative;
 }

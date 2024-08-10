@@ -22,13 +22,7 @@ export default function Form() {
   return (
     <form className={styles.form} action={sendEmailAction}>
       <label htmlFor='name'>Name</label>
-      <Input
-        placeholder='Your name here'
-        aria-label='Name input'
-        type='text'
-        id='name'
-        name='name'
-      />
+      <Input placeholder='Jane Doe' aria-label='Name input' type='text' id='name' name='name' />
       <label htmlFor='email'>Email</label>
       <Input
         placeholder='user@email.com'
@@ -38,7 +32,14 @@ export default function Form() {
         name='email'
       />
       <label htmlFor='message'>Message</label>
-      <TextArea name='message' id='message' cols={30} rows={10}></TextArea>
+      <TextArea
+        placeholder='Your words go here..'
+        aria-label='Message input'
+        id='message'
+        name='message'
+        cols={30}
+        rows={10}
+      ></TextArea>
       <button className={styles.button} type='submit'>
         Send
       </button>
