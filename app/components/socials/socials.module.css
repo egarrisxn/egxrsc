@@ -11,7 +11,6 @@
   border-radius: var(--radius);
   padding: var(--gap);
   color: var(--gray-alpha) !important;
-
   will-change: transform;
   transition: all 0.1s cubic-bezier(0.01, 0.88, 0.93, 0.07);
   line-height: 50%;

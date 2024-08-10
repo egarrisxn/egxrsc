@@ -1,5 +1,5 @@
 'use client'
-import styles from './socials.module.css'
+import styles from '../socials/socials.module.css'
 import Tooltip from '../tooltip'
 import {track} from '@vercel/analytics/react'
 

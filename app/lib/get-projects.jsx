@@ -4,10 +4,11 @@ const Projects = [
   {
     title: 'Unofficial Merchandise',
     description:
-      'A fully functional ecommerce web store configured with Next.js, Sanity, Stripe, Tailwind CSS, shadcn/ui, & more.',
+      'A fully functional e-commerce web store configured with Next.js, Sanity, Stripe, Tailwind CSS, shadcn/ui, & more.',
     href: 'https://github.com/egarrisxn/unofficial-merchandise',
     years: ['2024'],
     type: 'project',
+    image: '/projects/unofficialmerch.png',
   },
   {
     title: 'WebSanity Builder',
@@ -16,6 +17,7 @@ const Projects = [
     href: 'https://github.com/egarrisxn/websanity-builder',
     years: ['2024'],
     type: 'project',
+    image: '/projects/websanity.png',
   },
   {
     title: 'n00b:dev',
@@ -24,6 +26,7 @@ const Projects = [
     href: 'https://github.com/egarrisxn/n00bdev',
     years: ['2024'],
     type: 'project',
+    image: '/projects/n00bdev.png',
   },
   {
     title: 'EG Movies',
@@ -32,6 +35,7 @@ const Projects = [
     href: 'https://github.com/egarrisxn/eg-angular-movies',
     years: ['2024'],
     type: 'project',
+    image: '/projects/egmovies.png',
   },
   {
     title: 'Dev-Build Resume',
@@ -40,6 +44,7 @@ const Projects = [
     href: 'https://github.com/egarrisxn/devbuild-resume',
     years: ['2024'],
     type: 'project',
+    image: '/projects/devbuildresume.png',
   },
   {
     title: 'Sway Bae Official',
@@ -48,6 +53,7 @@ const Projects = [
     href: 'https://github.com/egarrisxn/swaybaeofficial',
     years: ['2023'],
     type: 'project',
+    image: '/projects/swaybae.png',
   },
   {
     title: 'EGXWORLD V1',
@@ -55,13 +61,16 @@ const Projects = [
     href: 'https://github.com/egarrisxn/egxworld-v1',
     years: ['2023'],
     type: 'project',
+    image: '/projects/egxworldv1.png',
   },
   {
     title: 'EGXBLOG',
-    description: 'My *old* personal blog powered by Next.js, Sanity, Tailwind CSS, shadcn/ui, & more.',
+    description:
+      'My *old* personal blog powered by Next.js, Sanity, Tailwind CSS, shadcn/ui, & more.',
     href: 'https://github.com/egarrisxn/egxblog',
     years: ['2023'],
     type: 'project',
+    image: '/projects/egxblog.png',
   },
   {
     title: 'Vanilla Template',
@@ -69,13 +78,16 @@ const Projects = [
     href: 'https://github.com/egarrisxn/portfolio-template',
     years: ['2023'],
     type: 'project',
+    image: '/projects/vanillatemplate.png',
   },
   {
     title: 'The Tech Forum',
-    description: 'A CMS inspired forum application using Express, MySQL, Handlebars, Bootstrap, & more.',
+    description:
+      'A CMS inspired forum application using Express, MySQL, Handlebars, Bootstrap, & more.',
     href: 'https://github.com/egarrisxn/mvc-tech-forum',
     years: ['2023'],
     type: 'project',
+    image: '/projects/mvctechforum.png',
   },
 ]
 

@@ -3,9 +3,9 @@
 
 :root {
   /* Typography */
-  --font-sans: var(--font-geist-sans), -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue',
-    sans-serif;
-  --font-mono: var(--font-geist-mono), 'SFMono-Regular', 'Consolas', 'Liberation Mono', 'Menlo',
+  --font-sans: var(--font-space_grotesk), -apple-system, BlinkMacSystemFont, 'Roboto',
+    'Helvetica Neue', sans-serif;
+  --font-mono: var(--font-roboto-mono), 'SFMono-Regular', 'Consolas', 'Liberation Mono', 'Menlo',
     monospace;
 
   /* Transitions */
@@ -13,6 +13,7 @@
   --transition-slow: 0.3s ease-in-out;
 
   /* Spacing */
+  --gap-small: 0.1rem;
   --gap-quarter: 0.25rem;
   --gap-half: 0.5rem;
   --gap: 1rem;
@@ -25,8 +26,8 @@
   --header-height: 48px;
 
   /* Dark Mode Colors */
-  --bg: hsl(171, 13%, 10%);
-  --bg-alpha: hsla(170, 17%, 14%, 0.9);
+  --bg: hsl(180, 17%, 8%);
+  --bg-alpha: hsla(180, 17%, 8%, 0.9);
   --fg: hsl(0, 0%, 98%);
   --gray: hsl(0, 0%, 60%);
   --light-gray: hsl(0, 0%, 27%);
@@ -35,7 +36,7 @@
   --article-color: hsl(0, 0%, 92%);
   --gray-alpha: hsla(0, 0%, 100%, 0.5);
   --selection: hsla(0, 0%, 100%, 0.88);
-  --link: hsl(216, 100%, 72%);
+  --link: hsl(216, 100%, 77%);
 
   /* Syntax Highlighting */
   --token: hsl(0, 0%, 60%);
@@ -50,8 +51,8 @@
 }
 
 [data-theme='light'] {
-  --bg: rgb(241, 241, 241);
-  --bg-alpha: hsla(0, 0%, 98%, 0.9);
+  --bg: hsl(283, 100%, 99%);
+  --bg-alpha: hsla(283, 100%, 99%, 0.9);
   --fg: hsl(0, 0%, 27%);
   --gray: hsl(0, 0%, 39%);
   --light-gray: hsl(0, 0%, 87%);
@@ -61,7 +62,7 @@
   --header-bg: hsla(0, 0%, 100%, 0.8);
   --gray-alpha: hsla(0, 0%, 8%, 0.5);
   --selection: hsla(0, 0%, 0%, 0.99);
-  --link: hsl(240, 100%, 79%);
+  --link: hsl(215, 51%, 54%);
 
   --token: hsl(0, 0%, 40%);
   --comment: hsl(0, 0%, 60%);

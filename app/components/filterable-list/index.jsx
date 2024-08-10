@@ -106,9 +106,7 @@ export default function FilterableList({
           ))}
         </div>
       )}
-      <ul className={styles.items} aria-live='polite' aria-relevant='additions removals'>
-        {filteredItems.map((item) => renderItem(item))}
-      </ul>
+      <ul className={styles.items}>{filteredItems.map((item) => renderItem(item))}</ul>
     </>
   )
 }

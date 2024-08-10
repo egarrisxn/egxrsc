@@ -17,9 +17,9 @@ export default async function HomePage() {
       <header>
         <TimeOfDay />
         <p>
-          <Link href='/about'>About</Link> / <Link href='/projects'>Projects</Link> /{' '}
-          <Link href='/posts'>Posts</Link> / <Link href='/thoughts'>Thoughts</Link> /{' '}
-          <Link href='/contact'>Contact </Link>
+          <Link href='/about'>about</Link> | <Link href='/projects'>projects</Link> |{' '}
+          <Link href='/posts'>posts</Link> | <Link href='/thoughts'>thoughts</Link> |{' '}
+          <Link href='/contact'>contact </Link>
         </p>
         <p>
           Full Stack Developer & Digital Product Designer with a passion for learning and growth.

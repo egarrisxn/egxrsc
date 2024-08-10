@@ -30,7 +30,6 @@
 }
 
 .wrapper .date,
-.wrapper .views,
 .type {
   font-size: 1rem;
   color: var(--gray);
@@ -50,15 +49,14 @@
 
 .title,
 .description {
-  word-break: break-word;
   margin: 0;
-  line-height: 1.5;
+  line-height: 1.5em;
+  word-break: break-word;
 }
 
 .title {
-  font-size: 1.15rem;
-  font-weight: bold;
-  transition: color var(--transition);
+  font-size: 1.1rem;
+  font-weight: 700;
 }
 
 .description {
@@ -70,6 +68,7 @@
   .title,
   .description {
     -webkit-line-clamp: 2;
+    line-clamp: description;
   }
 }
 
@@ -84,8 +83,9 @@
 }
 
 .thirdParty {
-  color: var(--gray);
+  margin-top: var(--gap-quarter);
   font-size: 0.9rem;
+  color: var(--gray);
 }
 
 .thirdParty:after {

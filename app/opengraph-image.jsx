@@ -35,19 +35,19 @@ export default async function () {
         >
           <span
             style={{
-              fontSize: 30,
+              fontSize: 20,
               fontWeight: 100,
-              color: 'fuchsia',
+              color: 'white',
               padding: '10px 0px 0px 10px',
             }}
           >
-            ||||
+            MMXXIV
           </span>
         </div>
         <div
           style={{
             display: 'flex',
-            flexDirection: 'column',
+            flexDirection: 'row',
             alignItems: 'center',
             justifyContent: 'center',
             width: '100%',
@@ -58,7 +58,15 @@ export default async function () {
             fontSize: 100,
           }}
         >
-          EGXWORLD
+          EG
+          <span
+            style={{
+              color: 'blue',
+            }}
+          >
+            X
+          </span>
+          WORLD
         </div>
       </div>
     ),

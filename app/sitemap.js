@@ -7,7 +7,7 @@ export default async function sitemap() {
 
   const blogs = posts
     .map((post) => ({
-      url: `http://egxworld.net/${post.slug}`,
+      url: `http://egxworld.net/posts/${post.slug}`,
       lastModified: post.lastModified
         ? new Date(post.lastModified).toISOString().split('T')[0]
         : new Date().toISOString().split('T')[0],
@@ -21,7 +21,7 @@ export default async function sitemap() {
       })),
     )
 
-  const routes = ['', '/about', '/projects'].map((route) => ({
+  const routes = ['', '/about', '/projects', '/posts', '/thoughts', '/contact'].map((route) => ({
     url: `http://egxworld.net${route}`,
     lastModified: new Date().toISOString().split('T')[0],
   }))

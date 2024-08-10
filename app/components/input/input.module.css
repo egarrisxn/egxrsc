@@ -1,19 +1,19 @@
 .input {
+  margin: 0;
+  padding: 0 var(--gap-half);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 2.5rem;
   font-size: 1rem;
   border-radius: var(--inline-radius);
   background: var(--bg);
   color: var(--fg);
-  border: 1px solid var(--light-gray);
-  padding: 0 var(--gap-half);
+  border: var(--gap-small) solid gray;
   outline: none;
   transition: border-color var(--transition);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0;
 }
 
 .input:focus {
-  border-color: var(--gray);
+  border-color: var(--fg);
 }

@@ -1,5 +1,5 @@
 import styles from './socials.module.css'
-import {SocialButton} from './social-button'
+import {SocialButton} from '../social-button'
 import {LinkedIn, GitHub, XIcon, Instagram, Discord, Spotify1} from '../icons'
 
 export default function Socials(props) {

@@ -1,7 +1,7 @@
 'use client'
 import styles from './posts-list.module.css'
 import {useState} from 'react'
-import BlockEntry from '../entry/block'
+import BlockEntry from '../entry/block/index.jsx'
 
 export default function PostsList(props) {
   const [showMore, setShowMore] = useState(4)
@@ -33,7 +33,6 @@ export default function PostsList(props) {
             href={post.isThirdParty ? post.href : `/posts/${post.slug}`}
             title={post.title}
             date={new Date(date)}
-            views={post.views}
             isThirdParty={post.isThirdParty}
           />
         )

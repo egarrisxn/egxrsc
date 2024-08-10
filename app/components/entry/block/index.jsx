@@ -1,5 +1,5 @@
 import styles from './block.module.css'
-import Link from '../link'
+import Link from '../../link'
 
 export default function BlockEntry(props) {
   if ('skeleton' in props) {
@@ -29,16 +29,8 @@ export default function BlockEntry(props) {
                     })}
                   </span>
                 )}
-                {views ? (
-                  <span className={styles.views}>
-                    {views.toLocaleString()} {views === 1 ? 'view' : 'views'}
-                  </span>
-                ) : null}
               </div>
             )}{' '}
-            <span style={{color: 'var(--gray)'}} aria-hidden>
-              /
-            </span>
             {type ? (
               <span style={{color: 'var(--gray)'}}>
                 {type.charAt(0).toUpperCase() + type.slice(1)}

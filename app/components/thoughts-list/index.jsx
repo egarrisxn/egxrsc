@@ -1,7 +1,7 @@
 'use client'
 import styles from './thoughts-list.module.css'
 import {useState} from 'react'
-import BlockEntry from '../entry/block'
+import BlockEntry from '../entry/block/index.jsx'
 
 export default function ThoughtsList(props) {
   const [showMore, setShowMore] = useState(4)

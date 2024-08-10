@@ -16,14 +16,14 @@ export default function ProjectList({projects = [], seeMore = true, showYears = 
             href={e.href || ''}
             title={e.title}
             description={e.description}
-            role={e.role}
+            image={e.image || ''}
           />
         )
       })}
       {seeMore && (
-        <li>
+        <div className={styles.seemore}>
           See more <Link href='/projects'>projects</Link>.
-        </li>
+        </div>
       )}
     </ul>
   )
