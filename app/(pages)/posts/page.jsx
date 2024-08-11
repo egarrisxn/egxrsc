@@ -4,19 +4,23 @@ import Socials from '../../components/socials'
 export const metadata = {
   title: 'Posts',
   description: 'Posts.',
-    alternates: {
+  alternates: {
     canonical: 'https://egxworld.net/posts',
   },
 }
 
 export default async function PostsPage() {
   return (
-    <article>
-      <h3>Blog posts _</h3>
+    <>
+      <header>
+        <h3>Blog posts _</h3>
+      </header>
       <hr />
       <ThePostsList paginate={true} />
       <hr />
-      <Socials />
-    </article>
+      <footer>
+        <Socials />
+      </footer>
+    </>
   )
 }

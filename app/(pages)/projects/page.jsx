@@ -2,6 +2,7 @@ import Link from '../../components/link'
 import Socials from '../../components/socials'
 import ProjectList from '../../components/projects'
 import {getProjects} from '../../lib/get-projects'
+import {Arrow} from '../../components/icons/other'
 
 export const metadata = {
   title: 'Projects',
@@ -15,17 +16,20 @@ export default async function ProjectsPage() {
   const projects = await getProjects()
   return (
     <>
-      <h3>Some projects _</h3>
+      <header>
+        <h3>Some projects _</h3>
+      </header>
       <ProjectList showYears={true} projects={projects} seeMore={false} />
       <p>
         See all{' '}
         <Link external href='https://github.com/egarrisxn'>
-          projects
+          projects <Arrow />
         </Link>
-        .
       </p>
       <hr />
-      <Socials />
+      <footer>
+        <Socials />
+      </footer>
     </>
   )
 }

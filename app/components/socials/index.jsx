@@ -15,7 +15,6 @@ export default function Socials(props) {
         icon={<LinkedIn strokeWidth={2} />}
         tooltip='LinkedIn'
       />
-
       <SocialButton href='https://x.com/eg_xo_' icon={<XIcon strokeWidth={2} />} tooltip='X' />
       <SocialButton
         href='https://instagram.com/eg___xo'

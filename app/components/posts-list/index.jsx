@@ -1,5 +1,5 @@
 'use client'
-import styles from './posts-list.module.css'
+import styles from './postslist.module.css'
 import {useState} from 'react'
 import BlockEntry from '../entry/block/index.jsx'
 

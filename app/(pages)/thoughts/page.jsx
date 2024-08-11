@@ -12,13 +12,15 @@ export const metadata = {
 export default async function ThoughtsPage() {
   return (
     <>
-      <article>
+      <header>
         <h3>Random thoughts _</h3>
-        <hr />
-        <TheThoughtsList paginate={true} />
-      </article>
+      </header>
       <hr />
-      <Socials />
+      <TheThoughtsList paginate={true} />
+      <hr />
+      <footer>
+        <Socials />
+      </footer>
     </>
   )
 }

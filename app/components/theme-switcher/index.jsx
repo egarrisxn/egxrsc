@@ -1,5 +1,5 @@
 'use client'
-import socialStyles from '../socials/socials.module.css'
+import styles from './theme.module.css'
 import {useEffect, useState} from 'react'
 import {useTheme} from 'next-themes'
 import {Moon, Sun} from '../icons/other'
@@ -31,7 +31,7 @@ export default function ThemeSwitcher({
       <button
         onClick={() => setTheme(activeTheme === 'light' ? 'dark' : 'light')}
         aria-label='Change the theme'
-        className={`${socialStyles.icon} ${className}`}
+        className={`${styles.themeSwitch} ${className}`}
       >
         {mounted ? (
           <FadeIn>

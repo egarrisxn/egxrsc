@@ -1,5 +1,5 @@
 'use client'
-import styles from './thoughts-list.module.css'
+import styles from './thoughtslist.module.css'
 import {useState} from 'react'
 import BlockEntry from '../entry/block/index.jsx'
 

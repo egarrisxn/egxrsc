@@ -1,5 +1,5 @@
 'use client'
-import styles from './filterable-list.module.css'
+import styles from './filterablelist.module.css'
 import {useState, useMemo} from 'react'
 import {useSearchParams} from 'next/navigation'
 import Link from 'next/link'

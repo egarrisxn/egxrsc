@@ -1,5 +1,5 @@
 'use client'
-import styles from '../socials/socials.module.css'
+import styles from './socialbutton.module.css'
 import Tooltip from '../tooltip'
 import {track} from '@vercel/analytics/react'
 
@@ -10,7 +10,7 @@ export function SocialButton({tooltip, href, icon}) {
     <Tooltip text={tooltip} direction='top'>
       <Link
         href={href}
-        className={styles.icon}
+        className={styles.socialButton}
         external
         onClick={() =>
           track('clicked social link', {

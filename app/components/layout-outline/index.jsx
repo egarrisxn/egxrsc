@@ -1,4 +1,4 @@
-import styles from './layout-outline.module.css'
+import styles from './layoutoutline.module.css'
 import React from 'react'
 import {clsx} from 'clsx'
 

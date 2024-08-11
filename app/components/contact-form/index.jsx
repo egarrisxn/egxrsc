@@ -1,5 +1,5 @@
 'use client'
-import styles from './form.module.css'
+import styles from './contactform.module.css'
 import {useEffect} from 'react'
 import {useFormState} from 'react-dom'
 import {sendEmail} from '../../lib/send-email'
