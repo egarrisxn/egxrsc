@@ -8,6 +8,17 @@ import {SpotifyNowPlaying} from '../../components/spotify'
 import {ContentList} from '../../components/content-list'
 import {getProjects} from '../../lib/get-projects'
 
+const Arrow = () => {
+  return (
+    <svg width={10} height={10} viewBox='0 0 12 12' fill='none' xmlns='http://www.w3.org/2000/svg'>
+      <path
+        d='M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z'
+        fill='currentColor'
+      />
+    </svg>
+  )
+}
+
 const PROJECT_COUNT = 4
 
 export default async function HomePage() {
@@ -29,7 +40,7 @@ export default async function HomePage() {
         <p>
           Available for work //{' '}
           <Link external href='https://devbuild-resume.vercel.app/example-resume'>
-            Resume
+            Resume <Arrow />
           </Link>{' '}
         </p>
         <SpotifyNowPlaying />
@@ -37,7 +48,7 @@ export default async function HomePage() {
       <section>
         <div style={{position: 'relative'}}>
           <Image
-            src='/purplelines.svg'
+            src='/design/purplelines.svg'
             alt='Purple Lines'
             width={110}
             height={75}
@@ -51,7 +62,7 @@ export default async function HomePage() {
         <div className={styles.postnotes}>
           <div style={{position: 'relative'}}>
             <Image
-              src='/yellowlines.svg'
+              src='/design/yellowlines.svg'
               alt='Yellow Lines'
               width={80}
               height={130}
@@ -61,7 +72,7 @@ export default async function HomePage() {
           </div>
           <div style={{position: 'relative'}}>
             <Image
-              src='/redlines.svg'
+              src='/design/redlines.svg'
               alt='Red Lines'
               width={125}
               height={130}

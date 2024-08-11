@@ -3,7 +3,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  gap: 0.5rem;
+  gap: var(--gap-half);
   margin: 0;
   padding: 0;
 }
@@ -21,4 +21,41 @@
   font-size: 1.8rem;
   font-weight: 300;
   padding-left: 0.05rem;
+}
+
+.myStack {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  border-radius: var(--radius);
+  border: 1px solid var(--fg);
+  background-color: var(--bg);
+  padding: var(--gap-quarter) var(--gap-half);
+  margin: 0 var(--gap-small) 0 var(--gap-quarter);
+  font-size: 1.1rem;
+  line-height: 1;
+  color: var(--fg);
+  text-decoration: none !important;
+  /* text-transform: uppercase; */
+}
+
+.badge svg {
+  margin-right: var(--gap-quarter);
+  vertical-align: middle;
+}
+
+.prevStack ul {
+  margin: 0;
+  padding: 0;
+  /* list-style: none !important; */
+}
+
+.prevStack ul > li > span {
+  font-weight: 800;
 }

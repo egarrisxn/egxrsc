@@ -2,7 +2,7 @@
 import socialStyles from '../socials/socials.module.css'
 import {useEffect, useState} from 'react'
 import {useTheme} from 'next-themes'
-import {Moon, Sun} from '../icons'
+import {Moon, Sun} from '../icons/other'
 import FadeIn from '../fade-in'
 import Tooltip from '../tooltip'
 

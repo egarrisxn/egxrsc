@@ -1,5 +1,5 @@
 import styles from './mdx-thought.module.css'
-import Info from '../../components/icons/info'
+import Info from '../../components/icons/other/info'
 
 export function MDXThought({children, ...props}) {
   return (

@@ -2,7 +2,7 @@
 import styles from './spotify.module.css'
 import {useEffect, useState} from 'react'
 import getNowPlayingItem from '../../lib/get-spotify'
-import Spotify from '../icons/spotify2'
+import Spotify2 from '../icons/social/spotify2'
 import Image from 'next/image'
 
 export function SpotifyNowPlaying(props) {
@@ -35,7 +35,7 @@ export function SpotifyNowPlaying(props) {
       ) : (
         <section className={styles.mainContainer}>
           <div className={styles.headerContainer}>
-            <Spotify />
+            <Spotify2 />
             <div className={styles.nowPlaying}>
               {result.isPlaying ? 'Now playing' : 'Currently offline'}
               <div className={styles.hidden}>:</div>

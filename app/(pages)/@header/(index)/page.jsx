@@ -5,7 +5,7 @@ export default function HomeHeader() {
   return (
     <div className={styles.heading}>
       <Image
-        src='/bluecircle.svg'
+        src='/design/bluecircle.svg'
         alt='Blue Circle'
         width={160}
         height={40}

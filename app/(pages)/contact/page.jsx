@@ -17,11 +17,11 @@ export default function ContactPage() {
         <h3>Contact me _</h3>
         <p>
           If you have any questions, comments, or interest in working together, go ahead and send
-          over a messsage and I&#39;ll get back with you as soon as I can.
+          over a messsage and I&apos;ll get back with you as soon as I can.
         </p>
         <ContactForm />
         <p>
-          If forms aren&#39;t your thing, email me directly:{' '}
+          If forms aren&apos;t your thing, email me directly:{' '}
           <Link external href='mailto:egarrisxn@gmail.com'>
             egarrisxn@gmail.com
           </Link>
