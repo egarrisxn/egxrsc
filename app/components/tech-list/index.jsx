@@ -8,7 +8,7 @@ export default function TechList() {
           <span>Languages:</span> TypeScript, HTML5, CSS3
         </li>
         <li>
-          <span>Frontend:</span> Vue.js, Angular, Astro, Svelte, Alpine.js, HTMX, jQuery
+          <span>Frontend:</span> Angular, Astro, Alpine.js, HTMX, jQuery
         </li>
         <li>
           <span>Backend:</span> Hono, Supabase, Express
@@ -17,7 +17,7 @@ export default function TechList() {
           <span>CSS & UI Libraries:</span> daisyUI, React Aria, NextUI, Material-Tailwind, Bootstrap
         </li>
         <li>
-          <span>Databases:</span> PostgreSQL, MongoDB, GraphQL, MySQL, Sequelize
+          <span>Databases:</span> MongoDB, GraphQL, MySQL, PostgreSQL
         </li>
         <li>
           <span>Testing:</span> Jest

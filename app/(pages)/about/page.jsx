@@ -8,9 +8,8 @@ import {Arrow} from '../../components/icons/other'
 
 const currentTech = [
   {name: 'TypeScript', url: 'https://www.typescriptlang.org/'},
-  {name: 'Svelte', url: 'https://svelte.dev/'},
   {name: 'Express', url: 'https://expressjs.com/'},
-  {name: 'PostgreSQL', url: 'https://www.postgresql.org/'},
+  {name: 'MySQL', url: 'https://www.mysql.com/'},
   {name: 'Jest', url: 'https://jestjs.io/'},
   {name: 'Deno', url: 'https://deno.land/'},
   {name: 'Figma', url: 'https://www.figma.com/'},
@@ -19,9 +18,10 @@ const currentTech = [
 const futureTech = [
   {name: 'Python', url: 'https://www.python.org/'},
   {name: 'Rust', url: 'https://www.rust-lang.org/'},
+  {name: 'Vue.js', url: 'https://www.vuejs.org/'},
+  {name: 'Svelte', url: 'https://svelte.dev/'},
   {name: 'SQLite', url: 'https://www.sqlite.org/'},
   {name: 'Docker', url: 'https://www.docker.com/'},
-  {name: 'WebGL', url: 'https://www.khronos.org/webgl/'},
 ]
 
 export const metadata = {
