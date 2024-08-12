@@ -3,67 +3,82 @@
   padding: 1.5rem;
   display: flex;
   flex-direction: column;
-  gap: var(--gap);
+  gap: 1.5rem;
   max-width: 800px;
   border-radius: var(--inline-radius);
   background: var(--bg);
-  border: var(--gap-small) solid gray;
+  border: 1px solid var(--fg-2);
   outline: none;
-  transition: border-color var(--transition);
+  transition:
+    border-color var(--transition),
+    color var(--transition);
 }
 @media screen and (max-width: 768px) {
   .form {
-    margin: 0 auto;
     padding: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 0.8rem;
     border-radius: 0;
-    background: var(--bg);
     border: 0;
-    outline: none;
   }
 }
 
 .form label {
-  font-size: 1rem;
-  color: var(--fg);
-  margin-top: 0.3rem;
-  margin-bottom: 0;
+  color: var(--fg-2);
+  font-weight: 450;
+  padding-left: 0.2rem;
 }
-@media screen and (max-width: 768px) {
-  .form label {
-    font-size: 0.9rem;
-    color: var(--fg);
-    margin-top: 0.2rem;
-    margin-bottom: 0;
-  }
+
+.input,
+.textarea {
+  width: 100%;
+  font-size: 1rem;
+  border-radius: var(--inline-radius);
+  border: 1px solid var(--neutral);
+  background: var(--bg);
+  color: var(--fg-);
+  transition: border-color var(--transition);
+}
+
+.input {
+  min-height: 2rem;
+  padding: 0.6rem;
+}
+
+.textarea {
+  min-height: 14rem;
+  padding: 0.7rem;
+}
+
+.input:focus,
+.textarea:focus {
+  border: 1.5px solid var(--fg);
+  background: var(--bg-hover);
+  outline: none;
 }
 
 .button {
-  user-select: none;
-  cursor: pointer;
   width: 100%;
-  border-radius: var(--radius);
-  color: var(--fg);
-  font-weight: 500;
-  background: var(--neutral-3);
-  outline: 1px solid var(--neutral);
   display: flex;
   justify-content: center;
-  padding: var(--gap-quarter) var(--gap-half);
-  transition:
-    background-color var(--transition),
-    color var(--transition);
+  padding: var(--gap-half);
+  background: var(--bg);
+  color: var(--fg);
+  font-weight: 500;
+  border-radius: var(--inline-radius);
+  outline: 1px solid var(--neutral);
+  user-select: none;
+  cursor: pointer;
+  transition: color var(--transition);
+  transition: background-color var(--transition);
 }
 
 .button:hover,
 .button:focus {
-  color: var(--neutral);
+  color: var(--bg);
+  background: var(--link);
 }
 
 .button:focus {
-  outline: var(--gap-small) solid var(--fg);
+  outline: 1.5px solid var(--fg);
 }
 
 .button[disabled] {

@@ -1,3 +1,7 @@
+.header a {
+  margin: 0 0.15rem;
+}
+
 .postnotes {
   display: flex;
   padding-top: 0.2em;

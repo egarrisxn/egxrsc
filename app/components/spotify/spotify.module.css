@@ -45,16 +45,13 @@
 }
 
 .songImage {
-  height: 1.1rem;
-  width: 1.1rem;
-  border-radius: 0.25em;
-  border: 1px solid var(--neutral-tint);
+  height: 1.2rem;
+  width: 1.2rem;
 }
 @media screen and (max-width: 768px) {
   .songImage {
     height: 2.3rem;
     width: 2.3rem;
-    border-radius: 0.25rem;
   }
 }
 

@@ -1,5 +1,6 @@
 import Link from '../../components/link'
 import ContactForm from '../../components/contact-form'
+import {Arrow} from '../../components/icons/other'
 import Socials from '../../components/socials'
 
 export const metadata = {
@@ -22,11 +23,10 @@ export default function ContactPage() {
       </p>
       <ContactForm />
       <p>
-        If forms aren&apos;t your thing, email me directly:{' '}
+        If forms aren&apos;t your thing,{' '}
         <Link external href='mailto:egarrisxn@gmail.com'>
-          egarrisxn@gmail.com
+          email me <Arrow />
         </Link>
-        .
       </p>
       <hr />
       <footer>

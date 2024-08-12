@@ -15,12 +15,15 @@ export default async function HomePage() {
   const projects = await getProjects()
   return (
     <>
-      <header>
+      <header className={styles.header}>
         <TimeOfDay />
         <p>
-          <Link href='/about'>about</Link> | <Link href='/projects'>projects</Link> |{' '}
-          <Link href='/posts'>posts</Link> | <Link href='/thoughts'>thoughts</Link> |{' '}
-          <Link href='/contact'>contact </Link>
+          <Link href='/about'>about</Link>|<Link href='/projects'>projects</Link>|
+          <Link href='/posts'>posts</Link>|<Link href='/thoughts'>thoughts</Link>|
+          <Link href='/contact'>contact</Link>|
+          <Link external href='https://egxworld.vercel.app'>
+            v1
+          </Link>
         </p>
         <p>
           Full Stack Developer & Digital Product Designer with a passion for learning and growth.

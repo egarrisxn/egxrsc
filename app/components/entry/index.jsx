@@ -1,6 +1,6 @@
 import styles from './entry.module.css'
-import Badge from '../badge'
 import Link from '../link'
+import Badge from '../badge'
 import Image from 'next/image'
 
 export const Entry = ({href, title, description, image, years, showYears = true}) => (

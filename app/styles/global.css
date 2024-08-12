@@ -110,7 +110,7 @@ li {
   font-size: 1.1rem;
   font-weight: 400;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   p,
   li {
     font-size: 1rem;
