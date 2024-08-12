@@ -13,7 +13,6 @@ A minimalist inspired approach to a website, and one I am using as my own. Power
 - Next.js 14
 - MDX (Markdown)
 - React + RSC
-- Resend
 - Vercel
 - Etc.
 
