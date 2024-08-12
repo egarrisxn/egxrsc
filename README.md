@@ -4,16 +4,15 @@
 
 ## Description
 
-A minimalist inspired approach to a website, and one I am using as my own. Powered with Next.js, MDX, React+RSC, Resend, & more!
+A minimalist inspired approach to a website, and one I am using as my own. Powered with Next.js, MDX, React+RSC,  & more!
 
-![egxworld-v2](https://github.com/egarrisxn/egxworld-v2/assets/126130230/cc20a15e-d43f-4340-9ad7-b86127a5dfa3)
+![egxworldv2v2](https://github.com/user-attachments/assets/39019abb-85cf-4912-99df-fcec32813581)
 
 ## Technologies
 
 - Next.js 14
 - MDX (Markdown)
 - React + RSC
-- Resend
 - Vercel
 - Etc.
 
