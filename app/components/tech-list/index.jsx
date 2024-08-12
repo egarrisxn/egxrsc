@@ -14,10 +14,10 @@ export default function TechList() {
           <span>Backend:</span> Hono, Supabase, Express
         </li>
         <li>
-          <span>CSS & UI Libraries:</span> daisyUI, React Aria, NextUI, Headless UI, Bootstrap
+          <span>CSS & UI Libraries:</span> daisyUI, React Aria, NextUI, Material-Tailwind, Bootstrap
         </li>
         <li>
-          <span>Databases:</span> PostgreSQL, MongoDB, MySQL, GraphQL
+          <span>Databases:</span> PostgreSQL, MongoDB, GraphQL, MySQL, Sequelize
         </li>
         <li>
           <span>Testing:</span> Jest
