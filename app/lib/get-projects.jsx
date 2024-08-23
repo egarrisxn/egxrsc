@@ -38,13 +38,13 @@ const Projects = [
     image: '/projects/egmovies.png',
   },
   {
-    title: 'DevBuild Resume',
+    title: 'ATS Resbuilder',
     description:
-      'A modern, beautiful, and professional resume building web application using the likes of Next.js, TypeScript, Tailwind CSS, Material-Tailwind, & deployed with Vercel.',
-    href: 'https://github.com/egarrisxn/devbuild-resume',
+      'A simple and professional ATS-Certified resume template and more using the likes of Next.js, JavaScript, MDX, Tailwind CSS, & deployed with Vercel.',
+    href: 'https://github.com/egarrisxn/resume-builder',
     years: ['2024'],
     type: 'project',
-    image: '/projects/devbuildresume.png',
+    image: '/projects/resumebuilder.png',
   },
   {
     title: 'Sway Bae Official',
