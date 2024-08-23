@@ -4,7 +4,7 @@
 
 ## Description
 
-A minimalist inspired approach to a website, and one I am using as my own. Powered with Next.js, MDX, React+RSC,  & more!
+A 'minimalist' approach to a website and my current portfolio.
 
 ![egxworldv2v2](https://github.com/user-attachments/assets/39019abb-85cf-4912-99df-fcec32813581)
 
@@ -13,6 +13,7 @@ A minimalist inspired approach to a website, and one I am using as my own. Power
 - Next.js 14
 - MDX (Markdown)
 - React + RSC
+- JavaScript
 - Vercel
 - Etc.
 
