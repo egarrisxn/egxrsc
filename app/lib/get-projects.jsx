@@ -47,6 +47,15 @@ const Projects = [
     image: '/projects/resumebuilder.png',
   },
   {
+    title: 'Devbuild Resume',
+    description:
+      'An aesthetic (NON-ATS-CERTIFIED) resume building wep app using the powers that are Next.js, Typescript, Tailwind CSS, Material-Tailwind, & deployed with Vercel.',
+    href: 'https://github.com/egarrisxn/devbuild-resume',
+    years: ['2024'],
+    type: 'project',
+    image: '/projects/devbuildresume.png',
+  },
+  {
     title: 'Sway Bae Official',
     description:
       'The official website for a full-time streamer and content creator, Sway Bae. Created exactly as the client visioned by using Next.js, Sanity, Tailwind CSS, daisyUI, & deployed with Vercel.',
@@ -72,6 +81,15 @@ const Projects = [
     years: ['2023'],
     type: 'project',
     image: '/projects/egxworldv1.png',
+  },
+  {
+    title: 'm3rnb00kstack',
+    description:
+      'A MERN Stack book application, showcasing REST APIs (CRUD), authorization & authentication, etc. Tech: Express, MongoDB, React, JavaScript, Tailwind CSS, & deployed with Render.',
+    href: 'https://github.com/egarrisxn/m3rn-b00k-stack',
+    years: ['2023'],
+    type: 'project',
+    image: '/projects/m3rnb00kstack.png',
   },
   {
     title: 'The Tech Forum',
