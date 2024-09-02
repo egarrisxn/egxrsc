@@ -32,10 +32,11 @@ export default async function HomePage() {
         </p>
         <p>
           Available for work //{' '}
-          <Link external href='https://devbuild-resume.vercel.app/example-resume'>
+          <Link href='/resume' target='_blank' rel='noopener noreferrer'>
             Resume <Arrow />
-          </Link>{' '}
+          </Link>
         </p>
+
         <SpotifyNowPlaying />
       </header>
       <section>
