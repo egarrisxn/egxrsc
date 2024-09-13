@@ -2,8 +2,8 @@ import {TheThoughtsList} from '../../components/thoughts-list/thethoughtslist/in
 import Socials from '../../components/socials'
 
 export const metadata = {
-  title: 'Thoughts',
-  description: 'Thoughts.',
+  title: 'Thoughts Page',
+  description: 'Some random thoughts I have',
   alternates: {
     canonical: 'https://egxworld.net/thoughts',
   },
@@ -13,7 +13,7 @@ export default async function ThoughtsPage() {
   return (
     <>
       <header>
-        <h3>Random thoughts _</h3>
+        <h1>Random thoughts _</h1>
       </header>
       <hr />
       <TheThoughtsList paginate={true} />

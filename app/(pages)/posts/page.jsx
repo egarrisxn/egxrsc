@@ -2,8 +2,8 @@ import {ThePostsList} from '../../components/posts-list/thepostslist/index.jsx'
 import Socials from '../../components/socials'
 
 export const metadata = {
-  title: 'Posts',
-  description: 'Posts.',
+  title: 'Posts Page',
+  description: 'Some posts that I have made',
   alternates: {
     canonical: 'https://egxworld.net/posts',
   },
@@ -13,7 +13,7 @@ export default async function PostsPage() {
   return (
     <>
       <header>
-        <h3>Blog posts _</h3>
+        <h1>Blog posts _</h1>
       </header>
       <hr />
       <ThePostsList paginate={true} />

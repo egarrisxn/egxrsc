@@ -12,15 +12,17 @@
   border: 50%;
 }
 
-.name {
-  font-size: 3.4rem;
-  font-weight: 700;
+.heading {
+  grid-column: auto;
 }
 
-.title {
-  font-size: 1.8rem;
+.heading h1 {
+  font-size: 3rem;
+}
+
+.heading h2 {
   font-weight: 300;
-  padding-left: 0.05rem;
+  font-size: 1.5rem;
 }
 
 .tech {

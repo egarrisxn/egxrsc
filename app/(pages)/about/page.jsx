@@ -25,8 +25,8 @@ const futureTech = [
 ]
 
 export const metadata = {
-  title: 'About',
-  description: 'About.',
+  title: 'About Page',
+  description: 'A little bit about me',
   alternates: {
     canonical: 'https://egxworld.net/about',
   },
@@ -38,21 +38,20 @@ export default function AboutPage() {
       <header className={styles.header}>
         <Image
           src='/images/myavatar.png'
-          alt='My Avatar'
+          alt='My personal photo'
           width={100}
           height={100}
           quality={100}
           className={styles.avatar}
         />
-        <p>
-          <span className={styles.name}>Ethan G.</span>
-          <br />
-          <span className={styles.title}>Developer. Designer.</span>
-        </p>
+        <div className={styles.heading}>
+          <h1>Ethan G.</h1>
+          <h2>Developer. Designer.</h2>
+        </div>
       </header>
       <hr />
       <article>
-        <h2>Who Am I?</h2>
+        <h3>Who Am I?</h3>
         <p>
           First and foremost, hello! My name is Ethan. Currently, I live in the the Southeastern
           region of the United States, more specifically the wetlands of Central Florida.
@@ -71,7 +70,7 @@ export default function AboutPage() {
         </p>
         <p>Let&apos;s work together and create something out of this world! ✨</p>
         <hr />
-        <h2>My Tech Stack:</h2>
+        <h3>My Tech Stack:</h3>
         <TechStack />
         <p className={styles.tech}>
           {` Currently sharpening my knowledge on these: `}
@@ -83,7 +82,7 @@ export default function AboutPage() {
           {` & more! `}
         </p>
         <hr />
-        <h2>Previously Used Technologies & Tools:</h2>
+        <h3>Previously Used Technologies & Tools:</h3>
         <TechList />
         <p className={styles.tech}>
           {` Interests for Future Learning: `}

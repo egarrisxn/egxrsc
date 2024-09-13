@@ -4,7 +4,7 @@ import {useState, useMemo} from 'react'
 import {useSearchParams} from 'next/navigation'
 import Link from 'next/link'
 import Badge from '../badge'
-import Input from '../input'
+import {Input} from '../input'
 
 export default function FilterableList({
   items,

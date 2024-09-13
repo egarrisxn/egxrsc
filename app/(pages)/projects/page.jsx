@@ -17,7 +17,7 @@ export default async function ProjectsPage() {
   return (
     <>
       <header>
-        <h3>Some projects _</h3>
+        <h1>Some projects _</h1>
       </header>
       <ProjectList showYears={true} projects={projects} seeMore={false} />
       <p>

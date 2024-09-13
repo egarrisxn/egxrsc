@@ -11,7 +11,7 @@ export default function HomeHeader() {
         height={40}
         className={styles.image}
       />
-      <div className={styles.text}>Ethan G.</div>
+      <h1 className={styles.text}>Ethan G.</h1>
     </div>
   )
 }

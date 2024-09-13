@@ -5,8 +5,8 @@ import Socials from '../../components/socials'
 import Pacman from '../../components/pacman'
 
 export const metadata = {
-  title: 'Contact',
-  description: 'Contact.',
+  title: 'Contact Page',
+  description: 'How you can contact me',
   alternates: {
     canonical: 'https://egxworld.net/contact',
   },
@@ -16,8 +16,9 @@ export default function ContactPage() {
   return (
     <>
       <header>
-        <h3>Contact me _</h3>
+        <h1>Contact me _</h1>
       </header>
+      <br />
       <Pacman />
       <p>
         If you have any questions, comments, or interest in working together, go ahead and send over

@@ -1,8 +1,8 @@
 import styles from './resume.module.css'
 
 export const metadata = {
-  title: 'Resume',
-  description: 'Resume.',
+  title: 'Resume Page',
+  description: 'Here is my resume.',
   alternates: {
     canonical: 'https://egxworld.net/resume',
   },
@@ -12,7 +12,7 @@ export default function ResumePage() {
   return (
     <>
       <header>
-        <h3>My resume _</h3>
+        <h1>My resume _</h1>
       </header>
       <p>Standard US Letter Format</p>
       <iframe src='other/EG-Letter-Adobe-2024.pdf' className={styles.iframe}></iframe>

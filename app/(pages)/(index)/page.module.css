@@ -1,9 +1,29 @@
+.header nav {
+  margin: var(--gap) 0;
+}
+
+.header h2 {
+  font-size: 1.1rem;
+}
+
+.header h3 {
+  font-size: 1rem;
+}
+
 .header a {
   margin: 0 0.15rem;
 }
 
-.postnotes {
+.projects h4 {
+  font-size: 1.5rem;
+}
+
+.postandnotes {
   display: flex;
   padding-top: 0.2em;
   padding-bottom: 1.5em;
+}
+
+.postandnotes h4 {
+  font-size: 1.5rem;
 }

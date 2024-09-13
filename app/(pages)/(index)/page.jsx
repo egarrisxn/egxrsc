@@ -17,29 +17,28 @@ export default async function HomePage() {
     <>
       <header className={styles.header}>
         <TimeOfDay />
-        <p>
+        <nav>
           <Link href='/about'>about</Link>|<Link href='/projects'>projects</Link>|
           <Link href='/posts'>posts</Link>|<Link href='/thoughts'>thoughts</Link>|
           <Link href='/contact'>contact</Link>|
           <Link external href='https://egxworld.vercel.app'>
             v1
           </Link>
-        </p>
-        <p>
+        </nav>
+        <h2>
           Full Stack Developer & Digital Product Designer with a passion for learning and growth.
           Constantly challenging myself to step out of my comfort zone and tackle new challenges.{' '}
           <Link href='/about'>Learn more</Link>.
-        </p>
-        <p>
+        </h2>
+        <h3>
           Available for work //{' '}
           <Link href='/resume' target='_blank' rel='noopener noreferrer'>
             Resume <Arrow />
           </Link>
-        </p>
-
+        </h3>
         <SpotifyNowPlaying />
       </header>
-      <section>
+      <section className={styles.projects}>
         <div style={{position: 'relative'}}>
           <Image
             src='/design/purplelines.svg'
@@ -48,12 +47,12 @@ export default async function HomePage() {
             height={75}
             style={{position: 'absolute'}}
           />
-          <h2>Projects</h2>
+          <h4>Projects</h4>
         </div>
         <ProjectList showYears={true} projects={projects.slice(0, PROJECT_COUNT)} seeMore={true} />
       </section>
       <section>
-        <div className={styles.postnotes}>
+        <div className={styles.postandnotes}>
           <div style={{position: 'relative'}}>
             <Image
               src='/design/yellowlines.svg'
@@ -62,7 +61,7 @@ export default async function HomePage() {
               height={130}
               style={{position: 'absolute'}}
             />
-            <h2>Posts&</h2>
+            <h4>Posts&</h4>
           </div>
           <div style={{position: 'relative'}}>
             <Image
@@ -72,7 +71,7 @@ export default async function HomePage() {
               height={130}
               style={{position: 'absolute'}}
             />
-            <h2>Thoughts</h2>
+            <h4>Thoughts</h4>
           </div>
         </div>
         <ContentList />

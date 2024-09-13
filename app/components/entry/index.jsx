@@ -7,11 +7,11 @@ export const Entry = ({href, title, description, image, years, showYears = true}
   <>
     <li className={styles.wrapper}>
       <div className={styles.head}>
-        <h4 className={styles.title}>
+        <p className={styles.title}>
           <Link href={href} external={true}>
             {title}
           </Link>
-        </h4>
+        </p>
         <div className={styles.badges}>
           {showYears && (
             <Badge>
