@@ -41,7 +41,7 @@ export default function BlockEntry(props) {
           </div>
         ) : null}
 
-        <h4 className={`${styles.title}`}>{title}</h4>
+        <h2 className={`${styles.title}`}>{title}</h2>
         {description && <p className={styles.description}>{description}</p>}
         {isThirdParty && <span className={styles.thirdParty}>{new URL(href).hostname}</span>}
       </Link>

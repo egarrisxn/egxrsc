@@ -6,6 +6,7 @@ import {zodResolver} from '@hookform/resolvers/zod'
 import {sendEmail} from '../../lib/send-email'
 import {Form, FormControl, FormField, FormItem, FormLabel, FormMessage} from '../form'
 import {Input} from '../input'
+import {Textarea} from '../textarea'
 
 const formSchema = z.object({
   name: z.string().min(3).max(100),
@@ -37,7 +38,7 @@ export default function ContactForm() {
           name='name'
           render={({field}) => (
             <FormItem>
-              <FormLabel>Name</FormLabel>
+              <FormLabel htmlFor='name'>Name</FormLabel>
               <FormControl>
                 <Input
                   className={styles.input}
@@ -57,9 +58,16 @@ export default function ContactForm() {
           name='email'
           render={({field}) => (
             <FormItem>
-              <FormLabel>Email Address</FormLabel>
+              <FormLabel htmlFor='email'>Email Address</FormLabel>
               <FormControl>
-                <Input className={styles.input} placeholder='your@email.com' {...field} />
+                <Input
+                  className={styles.input}
+                  placeholder='your@email.com'
+                  aria-label='Email input'
+                  type='email'
+                  id='email'
+                  {...field}
+                />
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -70,11 +78,13 @@ export default function ContactForm() {
           name='message'
           render={({field}) => (
             <FormItem>
-              <FormLabel>Message</FormLabel>
+              <FormLabel htmlFor='message'>Message</FormLabel>
               <FormControl>
-                <textarea
+                <Textarea
                   className={styles.textarea}
                   placeholder='Hit me with your best shot!'
+                  aria-label='Message input'
+                  id='message'
                   {...field}
                 />
               </FormControl>

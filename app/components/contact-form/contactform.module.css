@@ -27,32 +27,10 @@
   padding-left: 0.2rem;
 }
 
-.input,
-.textarea {
-  width: 100%;
-  font-size: 1rem;
-  border-radius: var(--inline-radius);
-  border: 1px solid var(--neutral);
-  background: var(--bg);
-  color: var(--fg-);
-  transition: border-color var(--transition);
-}
-
 .input {
+  padding: var(--gap-half);
   min-height: 2rem;
-  padding: 0.6rem;
-}
-
-.textarea {
-  min-height: 14rem;
-  padding: 0.7rem;
-}
-
-.input:focus,
-.textarea:focus {
-  border: 1.5px solid var(--fg);
-  background: var(--bg-hover);
-  outline: none;
+  width: 100%;
 }
 
 .button {

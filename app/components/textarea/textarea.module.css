@@ -1,30 +1,30 @@
-.input {
+.textarea {
   margin: 0;
-  padding: 0 var(--gap-half);
+  padding: var(--gap-half);
   display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 2.5rem;
+  width: 100%;
+  min-height: 5rem;
   font-size: 1rem;
   border-radius: var(--inline-radius);
-  border: var(--gap-small) solid var(--neutral);
+  border: 1px solid var(--neutral);
   background: var(--bg);
-  color: var(--fg);
+  color: var(--fg-);
   transition: border-color var(--transition);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 
-.input:focus {
-  border-color: 1.5px solid var(--fg);
+.textarea:focus {
+  border: 1.5px solid var(--fg);
   background: var(--bg-hover);
   outline: none;
 }
 
-.input:focus-visible {
+.textarea:focus-visible {
   outline: none;
   box-shadow: 0 0 0 1px var(--fg);
 }
 
-.input:disabled {
+.textarea:disabled {
   cursor: not-allowed;
   opacity: 0.5;
 }
