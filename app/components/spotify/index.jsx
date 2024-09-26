@@ -37,8 +37,7 @@ export function SpotifyNowPlaying(props) {
           <div className={styles.headerContainer}>
             <Spotify2 />
             <div className={styles.nowPlaying}>
-              {result.isPlaying ? 'Now playing' : 'Currently offline'}
-              <div className={styles.hidden}>:</div>
+              {result.isPlaying ? 'Now playing:' : 'Currently offline'}
             </div>
           </div>
           {result.isPlaying && (
