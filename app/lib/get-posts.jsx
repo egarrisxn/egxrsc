@@ -6,7 +6,7 @@ import path from 'path'
 const thirdPartyPosts = [
   {
     title: '#8 | The Evolution of Web Development',
-    description: 'TFrom Static Pages to Dynamic Experiences',
+    description: 'From Static Pages to Dynamic Experiences',
     body: '',
     date: '2024-08-18',
     slug: 'the-evolution-of-web-development',
