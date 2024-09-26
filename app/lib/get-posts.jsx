@@ -5,6 +5,30 @@ import path from 'path'
 
 const thirdPartyPosts = [
   {
+    title: '#8 | The Evolution of Web Development',
+    description: 'TFrom Static Pages to Dynamic Experiences',
+    body: '',
+    date: '2024-08-18',
+    slug: 'the-evolution-of-web-development',
+    tags: [],
+    lastModified: 0,
+    isThirdParty: true,
+    href: 'https://egxblog.net/blog/the-evolution-of-web-development',
+    type: 'post',
+  },
+  {
+    title: '#7 | A Social Presence for Developers',
+    description: 'Having a robust social presence is essential for developers',
+    body: '',
+    date: '2024-07-17',
+    slug: 'a-social-presence-for-developers',
+    tags: [],
+    lastModified: 0,
+    isThirdParty: true,
+    href: 'https://egxblog.net/blog/a-social-presence-for-developers',
+    type: 'post',
+  },
+  {
     title: '#6 | The Rise of Serverless Architecture',
     description: 'Transforming Modern Web Development',
     body: '',
