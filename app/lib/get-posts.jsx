@@ -5,6 +5,18 @@ import path from 'path'
 
 const thirdPartyPosts = [
   {
+    title: '#9 | My Journey Thus Far',
+    description: 'The Growth, Challenges, & Hope.',
+    body: '',
+    date: '2024-09-27',
+    slug: 'my-journey-thus-far',
+    tags: [],
+    lastModified: 0,
+    isThirdParty: true,
+    href: 'https://egxblog.net/blog/my-journey-thus-far',
+    type: 'post',
+  },
+  {
     title: '#8 | The Evolution of Web Development',
     description: 'From Static Pages to Dynamic Experiences',
     body: '',
