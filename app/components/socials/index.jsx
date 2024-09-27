@@ -11,11 +11,11 @@ export default function Socials(props) {
         tooltip='GitHub'
       />
       <SocialButton
-        href='https://www.linkedin.com/in/ethan-gx'
+        href='https://linkedin.com/in/ethan-gx'
         icon={<LinkedIn strokeWidth={2} />}
         tooltip='LinkedIn'
       />
-      <SocialButton href='https://x.com/eg_xo_' icon={<XIcon strokeWidth={2} />} tooltip='X' />
+      <SocialButton href='https://x.com/eg__xo' icon={<XIcon strokeWidth={2} />} tooltip='X' />
       <SocialButton
         href='https://instagram.com/eg___xo'
         icon={<Instagram strokeWidth={2} />}
