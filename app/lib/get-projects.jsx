@@ -8,7 +8,7 @@ const Projects = [
     href: 'https://github.com/egarrisxn/swaybaeofficial',
     years: ['2023', '2024'],
     type: 'project',
-    image: '/projects/swaybae.png',
+    image: '/projects/swaybaeofficial.png',
   },
   {
     title: 'Unofficial Merchandise',
@@ -47,7 +47,7 @@ const Projects = [
     image: '/projects/resumebuilder.png',
   },
   {
-    title: 'EG // MOVIES DB',
+    title: 'EG MOVIES DB',
     description:
       'An intuitive movie search engine offering everything you would expect from a comprehensive movie database. Built with Angular, TypeScript, Tailwind CSS, & more.',
     href: 'https://github.com/egarrisxn/eg-angular-movies',
@@ -58,7 +58,7 @@ const Projects = [
   {
     title: 'Devbuild Resume',
     description:
-      'An aesthetic (NON-ATS-CERTIFIED) resume building wep app using the powers that are Next.js, Typescript, Tailwind CSS, Material-Tailwind, & deployed with Vercel.',
+      'An aesthetic, non-ats-certified resume building wep app using the powers that are Next.js, Typescript, Tailwind CSS, Material-Tailwind, & deployed with Vercel.',
     href: 'https://github.com/egarrisxn/devbuild-resume',
     years: ['2024'],
     type: 'project',
@@ -83,13 +83,22 @@ const Projects = [
     image: '/projects/egxblog.png',
   },
   {
-    title: '(PEHN) User Management',
+    title: 'Theme Party w/ Vite',
     description:
-      'A simple CRUD application for organizing a user database and uses the powers of Pug, Express, HTMX, & Node.js together to function so smoothly. Deployed with Heroku.',
-    href: 'https://github.com/egarrisxn/pehn-user-management',
+      'A fun, no frills, little theme selector project, made with Vanilla JavaScript, CSS3, HTML5, Vite, and deployed with Netlify.',
+    href: 'https://github.com/egarrisxn/vite-theme-party',
     years: ['2023'],
     type: 'project',
-    image: '/projects/pehnusers.png',
+    image: '/projects/themeparty.png',
+  },
+  {
+    title: 'HTML Portfolio Template',
+    description:
+      'A modern and beautiful portfolio template using only the powers from the trinity: HTML5, CSS3, & JavaScript. Deployed on GitHub Pages',
+    href: 'https://github.com/egarrisxn/portfolio-template',
+    years: ['2023'],
+    type: 'project',
+    image: '/projects/htmlportfolio.png',
   },
   {
     title: 'Tech Forum 2023',
@@ -99,33 +108,6 @@ const Projects = [
     years: ['2023'],
     type: 'project',
     image: '/projects/mvctechforum.png',
-  },
-  {
-    title: 'M3RN B00K STACK',
-    description:
-      'A MERN Stack book application, showcasing REST APIs (CRUD), authorization & authentication, etc. Tech: Express, MongoDB, React, JavaScript, Tailwind CSS, & deployed with Render.',
-    href: 'https://github.com/egarrisxn/m3rn-b00k-stack',
-    years: ['2023'],
-    type: 'project',
-    image: '/projects/m3rnb00kstack.png',
-  },
-  {
-    title: 'Theme Party w/ Vite',
-    description:
-      'A fun, no frills, little theme selector project, made with Vanilla JavaScript, CSS3, HTML5, Vite, and deployed with Netlify.',
-    href: 'https://github.com/egarrisxn/vite-theme-party',
-    years: ['2023'],
-    type: 'project',
-    image: '/projects/vitethemeparty.png',
-  },
-  {
-    title: 'HTML Portfolio Template',
-    description:
-      'A modern and beautiful portfolio template using only the powers from the trinity: HTML5, CSS3, & JavaScript. Deployed on GitHub Pages',
-    href: 'https://github.com/egarrisxn/portfolio-template',
-    years: ['2023'],
-    type: 'project',
-    image: '/projects/vanillatemplate.png',
   },
 ]
 
