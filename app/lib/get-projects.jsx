@@ -28,15 +28,15 @@ const Projects = [
     type: 'project',
     image: '/projects/n00bdev.png',
   },
-  {
-    title: 'WebSanity: Website Builder',
-    description:
-      'A powerful, user-friendly tool designed to help you create stunning websites effortlessly! Powered by Next.js, Sanity, Tailwind CSS, & deployed with Vercel.',
-    href: 'https://github.com/egarrisxn/websanity-builder',
-    years: ['2024'],
-    type: 'project',
-    image: '/projects/websanity.png',
-  },
+  // {
+  //   title: 'WebSanity: Website Builder',
+  //   description:
+  //     'A powerful, user-friendly tool designed to help you create stunning websites effortlessly! Powered by Next.js, Sanity, Tailwind CSS, & deployed with Vercel.',
+  //   href: 'https://github.com/egarrisxn/websanity-builder',
+  //   years: ['2024'],
+  //   type: 'project',
+  //   image: '/projects/websanity.png',
+  // },
   {
     title: 'Resbuilder | ATS-Certified',
     description:
