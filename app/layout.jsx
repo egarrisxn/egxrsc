@@ -18,25 +18,6 @@ const roboto_mono = Roboto_Mono({
   display: 'swap',
 })
 
-export default function RootLayout({children}) {
-  return (
-    <html
-      lang='en'
-      suppressHydrationWarning
-      className={`${space_grotesk.variable} ${roboto_mono.variable}`}
-    >
-      <body>
-        <ThemeProvider>
-          <div className={styles.wrapper}>
-            <main className={styles.main}>{children}</main>
-          </div>
-        </ThemeProvider>
-        <Analytics />
-      </body>
-    </html>
-  )
-}
-
 export const metadata = {
   metadataBase: new URL('https://egxworld.net'),
   title: {
@@ -75,7 +56,7 @@ export const metadata = {
   twitter: {
     title: 'EGXWORLD',
     card: 'summary_large_image',
-    creator: '@eg_xo_',
+    creator: '@eg__xo',
   },
   icons: {
     shortcut: 'https://egxworld.net/favicons/favicon.ico',
@@ -84,7 +65,26 @@ export const metadata = {
 
 export const viewport = {
   themeColor: [
-    {media: '(prefers-color-scheme: light)', color: '#f5f5f5'},
-    {media: '(prefers-color-scheme: dark)', color: '#000'},
+    {media: '(prefers-color-scheme: light)', color: '#152028'},
+    {media: '(prefers-color-scheme: dark)', color: '#fcf5ff'},
   ],
+}
+
+export default function RootLayout({children}) {
+  return (
+    <html
+      lang='en'
+      suppressHydrationWarning
+      className={`${space_grotesk.variable} ${roboto_mono.variable}`}
+    >
+      <body>
+        <ThemeProvider>
+          <div className={styles.wrapper}>
+            <main className={styles.main}>{children}</main>
+          </div>
+        </ThemeProvider>
+        <Analytics />
+      </body>
+    </html>
+  )
 }
